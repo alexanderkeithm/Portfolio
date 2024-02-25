@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1>Keith Moore</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#port">My Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+        </nav>
+        <div class="header-text">
+            <h3>Technical Writer</h3>
+        </div>
+    </div>
+
+</div>
+
+<div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profimg/prof.png">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>My goal is to make complex information
+                        easy to understand with the creation
+                        of guides and how-to videos.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('tools')">Tools</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Help development</span><br></li>
+                        <li><span>Technical documentation</span><br></li>
+                        <li><span>Video editing</span><br></li>
+                        <li><span>HTML, CSS, XML</span><br></li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="tools">
+                    <ul>
+                        <li><span>Adobe FrameMaker</span><br></li>
+                        <li><span>Adobe Photoshop</span><br></li>
+                        <li><span>Microsoft Office</span><br></li>
+                        <li><span>Sony Vegas pro</span><br></li>
+                    </ul>
+
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    
+
+</div>
+
+<div id="port">
+    <div class="container">
+        <h2 class="sub-title">My Portfolio</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="Portfolio 1.png">
+                <div class="layer">
+                    <h3>Sample 1</h3>
+                    <p>FrameMaker guide using Microsoft Word.</p>
+                    <a href="https://jumpshare.com/s/93bc9cvLtHrgAgy0Ik9r"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Portfolio 2.png">
+                <div class="layer">
+                    <h3>Sample 2</h3>
+                    <p>Streaming Gameplay guide using FrameMaker.</p>
+                    <a href="https://jumpshare.com/s/mzsfQ1HPA7JD8zURVIWd"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Portfolio 3.png">
+                <div class="layer">
+                    <h3>Sample 3</h3>
+                    <p>Scarlett Solo guide using FrameMaker.</p>
+                    <a href="https://jumpshare.com/s/HrhXeMI4vYy4yGPIIi2a"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+            <div class="work">
+                <img src="Portfolio 4.png">
+                <div class="layer">
+                    <h3>Sample 4</h3>
+                    <p>One of my video tutorials.</p>
+                    <a href="https://www.youtube.com/watch?v=y7B37PxxYn4"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+             
+            </div>
+            
+            <div class="work">
+                <img src="Portfolio 5.png">
+                <div class="layer">
+                    <h3>Sample 5</h3>
+                    <p>Another one of my video tutorials.</p>
+                    <a href="https://www.youtube.com/watch?v=uTjJW-ENL9w"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="Portfolio 6.png">
+                    <div class="layer">
+                        <h3>Sample 6</h3>
+                        <p>Another one of my video tutorials.</p>
+                        <a href="https://www.youtube.com/watch?v=g65wXG2WdR4"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+        </div>
+        <a href="#" class="btn">Contact me for more samples.</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+           <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fas fa-paper-plane"></i>keitham.tech@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/keithamtech/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@KeithTechnical"><i class="fab fa-youtube"></i></a>
+                </div>
+           </div>
+
+           </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+</body>
+</html>
